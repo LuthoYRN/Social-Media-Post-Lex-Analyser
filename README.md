@@ -1,15 +1,22 @@
-#Social Media Post Lexical Analyser
+# Social Media Post Lexical Analyser
 
 This program performs lexical analysis on files containing messages or posts, similar to those found in instant messaging or social media applications. It identifies words, numbers, whitespace, punctuation, hashtags, name references, and illegal characters.
 
 How to Run?
 
 - Clone the repository:
-  > git clone <your-repo-url>
+ ```sh
+   git clone https://github.com/LuthoYRN/social-media-post-lex-analyser.git
+   ```
 - Navigate to the directory containing lex_msg.py:
-  > cd path/to/repo
+ ```sh
+   cd "social-media-post-lex-analyser"
+   ```
 
--Run the lexical analyser with a .msg file as input: > python3 lex_msg.py <filename>.msg
+- Run the lexical analyser with a .msg file as input:
+ ```sh
+   python3 lex_msg.py <filename>.msg
+   ```
 
 Expected Output
 
